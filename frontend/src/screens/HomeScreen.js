@@ -8,6 +8,7 @@ import Loader from '../components/Loader'
 import Paginate from '../components/Paginate'
 import { listProducts } from '../actions/productActions.js'
 import ProductCarousel from '../components/ProductCarousel'
+import Meta from '../components/Meta'
 
 const HomeScreen = () => {
   const params = useParams()
@@ -24,6 +25,7 @@ const HomeScreen = () => {
 
   return (
     <>
+      <Meta />
       {!keyword && <h1>Our Top Rated Products</h1>}
       {!keyword && <ProductCarousel />}
       <h1>Latest Products</h1>
