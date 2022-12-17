@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+// import { useParams } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 import { Row, Col } from 'react-bootstrap'
 import Product from '../components/Product'
@@ -7,6 +8,8 @@ import Loader from '../components/Loader'
 import { listProducts } from '../actions/productActions.js'
 
 const HomeScreen = () => {
+  // const params = useParams()
+  //tried to implement params to get keyword for searching
   const dispatch = useDispatch()
 
   const productList = useSelector((state) => state.productList)
