@@ -4,7 +4,7 @@
 
 Render deployed site link: [live_site](https://appleshop-frontend.onrender.com)
 
-![screenshot]()
+![screenshot](https://github.com/dineshraj100/Proshop/blob/master/uploads/Screenshot%20(152).png)
 
 ## Features
 
