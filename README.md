@@ -2,6 +2,8 @@
 
 > eCommerce platform built with the MERN stack & Redux.
 
+As heroku become paid by nov 28 2022, I deployed this site in render. for render deployment tutorial, here is an blog: [blog_link](https://dev.to/gregpetropoulos/render-deployment-free-tier-of-mern-app-52mk)
+
 Render deployed site link: [live_site](https://appleshop-frontend.onrender.com)
 
 ![screenshot](https://github.com/dineshraj100/Proshop/blob/master/uploads/Screenshot%20(152).png)
