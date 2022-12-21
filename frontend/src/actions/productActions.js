@@ -31,7 +31,7 @@ export const listProducts =
       dispatch({ type: PRODUCT_LIST_REQUEST })
 
       const { data } = await axios.get(
-        `/api/products?keyword=${keyword}&pageNumber=${pageNumber}`
+        `http://127.0.0.1:5000/api/products?keyword=${keyword}&pageNumber=${pageNumber}`
       )
 
       dispatch({
@@ -211,7 +211,7 @@ export const listTopProducts = () => async (dispatch) => {
   try {
     dispatch({ type: PRODUCT_TOP_REQUEST })
 
-    const { data } = await axios.get(`/api/products/top`)
+    const { data } = await axios.get(`http://127.0.0.1:5000/api/products/top`)
 
     dispatch({
       type: PRODUCT_TOP_SUCCESS,
